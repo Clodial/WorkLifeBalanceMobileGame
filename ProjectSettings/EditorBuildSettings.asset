@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BadEnd.unity
+    guid: 96fa5ed213f32cd43b5d44c6f68b2782
+  - enabled: 1
+    path: Assets/Scenes/FailedEnd.unity
+    guid: 027c1f1769a59a54bbebe263e4b03996
+  - enabled: 1
+    path: Assets/Scenes/RealBigCookie.unity
+    guid: 0ebc7426fefcdb445bbac98297c290d3
+  m_configObjects: {}
