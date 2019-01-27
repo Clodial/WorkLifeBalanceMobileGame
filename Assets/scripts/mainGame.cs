@@ -19,6 +19,7 @@ public class mainGame : MonoBehaviour {
     public GameObject chImage;
     public GameObject chText;
     public GameObject chapter;
+    public GameObject credits;
 
     public Image chapterImage;
     public Image chMainImage;
@@ -148,6 +149,7 @@ public class mainGame : MonoBehaviour {
             chText.SetActive(false);
             xMark.SetActive(false);
             vMark.SetActive(false);
+            credits.SetActive(false);
             if (audioPlayer.isPlaying)
             {
                 audioPlayer.Stop();
@@ -200,6 +202,7 @@ public class mainGame : MonoBehaviour {
             xMark.SetActive(true);
             logo.SetActive(false);
             actionLine.SetActive(false);
+            credits.SetActive(false);
             // Story Time stuff
             if (stage == 0) //chapter 1
             {
